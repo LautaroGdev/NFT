@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    background-color:  hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main {
+    padding: 200px;
+}
+
+.nav {
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+
+#borde_bajo {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding: 20px 0px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    text-align: left;
+    color: #ffff;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    padding: 0;
+    color: hsl(215, 51%, 70%); 
+    font-weight: 300; 
+}
+
+.eth {
+    font-size: 15px;
+    padding-right: 110px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#daysleft {
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagen {
+    height: 280px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.avatar {
+    margin: 0px 5px 0px 0px;
+    width: 30px;
+    right: 30px;
+    border: 1px solid #ffff;
+    border-radius: 15px;
+}
+
+#jules {
+    color: #ffff;
+    padding-left: 4px;
+}
+.texto_avatar {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
